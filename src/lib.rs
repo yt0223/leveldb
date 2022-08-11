@@ -46,7 +46,7 @@
 extern crate libc;
 extern crate leveldb_sys;
 
-pub use leveldb_sys::Compression;
+pub use leveldb_sys::Compression as Compression;
 
 use leveldb_sys::{leveldb_major_version, leveldb_minor_version};
 pub use database::options;
